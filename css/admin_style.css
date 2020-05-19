@@ -1,0 +1,250 @@
+.header {
+    height: 60px;
+    background-color: #15171E;
+    font-family: Roboto, sans-serif, Verdana;
+    padding: 10px 10px;
+    color: #AAA;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #AAA;
+    text-align: justify;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+    background-color: #333;
+    height: 30px;
+    margin-top: 10px;
+    transition-duration: 0.5s;
+
+}
+
+nav li {
+    float: left;
+    color: #AAA;
+    padding-left: 10px;
+    
+
+}
+
+nav li a {
+    display: block;
+    color: #AAA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: #FFF;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a,
+.dropbtn {
+    display: inline-block;
+    color: inherit;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #337AB7;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {
+    background-color: #337AB7;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.table_div {
+    width: 600px;
+    ;
+    margin: 20px auto 20px auto;
+}
+
+.table {
+    border: 0.1px solid black;
+    width: 90%;
+    margin: 20px auto 20px auto;
+    font-family: Helvetica neue, Helvetica, Arial;
+    border-collapse: collapse;
+    min-height:100%;
+
+
+}
+
+.table th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    padding: 10px;
+    background: #333;
+    color: #FFF;
+    text-align: center;
+}
+
+.table a {
+    text-decoration: none;
+    color: #337AB7;
+}
+
+.table a:hover {
+    color: #FFF;
+}
+
+
+footer {
+
+    clear: both;
+    background-color: #15171E;
+    color: #AAA;
+    /*    width: 1200px;*/
+    height: 80px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.form-control {
+    width: 1000px;
+    margin: 20px auto 0 auto;
+    font-family: Helvetica neue, Helvetica, Arial;
+    background: #333;
+    color: #FFF;
+}
+
+.form-control textarea {
+    width: 800px;
+    height: 100px;
+}
+
+form {
+    padding: 20px;
+    margin: 0 auto;
+}
+
+.input {
+    width: 800px;
+    height: 30px;
+    margin: auto;
+    font-family: Helvetica neue, Helvetica, Arial;
+    font-size: 15px;
+}
+
+
+.btn {
+    width: 90px;
+    height: 30px;
+    background: #337AB7;
+    font-family: Helvetica neue, Helvetica, Arial;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #FFF;
+}
+
+.success {
+    width: 1000px;
+    margin: 20px auto 20px auto;
+    font-family: Helvetica neue, Helvetica, Arial;
+    border-color: #7fe39a;
+}
+
+.table_cat {
+    margin: auto;
+    width: 500px;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+
+
+.table_cat th,
+tr,
+td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: auto;
+    padding: 10px;
+    background: #333;
+    color: #FFF;
+}
+
+.table_cat a {
+    text-decoration: none;
+    color: #337AB7;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+.table_cat a:hover {
+    color: #FFF;
+}
+
+.categories {
+    margin-top: 20px;
+    margin-left: 40px;
+    font-family: Helvetica neue, Helvetica, Arial;
+
+}
+
+.logout_btn {
+    float: right;
+    font-family: Helvetica neue, Helvetica, Arial;
+    position: absolute;
+    right: 10px;
+}

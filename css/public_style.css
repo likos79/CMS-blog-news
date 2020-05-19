@@ -1,0 +1,222 @@
+#wrapper {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 60px;
+    background-color: #15171E;
+    font-family: Roboto, sans-serif, Verdana;
+    padding: 10px 10px;
+    color: #AAA;
+}
+
+header h2 {
+    text-align: center;
+}
+
+header a {
+    text-decoration: none;
+    color: #AAA;
+    text-align: justify;
+}
+
+p {
+    text-align: justify;
+}
+
+.login_div {
+    display: inline-block;
+    clear: left;
+    width: 300px;
+    height: auto;
+    background-color: #F0F0F0;
+    float: none;
+    margin-left: 20px;
+    margin-top: 20px;
+    padding: 20px;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+.login_div h3 {
+    text-align: center;
+}
+
+form p {
+    text-align: center;
+}
+
+.input {
+    width: 300px;
+    height: 30px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+    background-color: #333;
+    height: 30px;
+    margin-top: 10px;
+
+}
+
+nav li {
+    float: left;
+    color: #AAA;
+    padding-left: 10px;
+
+}
+
+nav li a {
+    display: block;
+    color: #AAA;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+    color: #FFF;
+}
+
+.main {
+    border-style: solid 0.5px black;
+    width: 800px;
+    float: left;
+    background-color: #F0F0F0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    font-family: Helvetica neue, Helvetica, Arial;
+
+}
+
+.main h1,
+a {
+    color: #337AB7;
+    text-decoration: none;
+}
+
+.aside {
+    width: 300px;
+    height: auto;
+    float: right;
+    margin-top: 20px;
+    background-color: #F0F0F0;
+    padding: 20px;
+    font-family: Helvetica neue, Helvetica, Arial;
+}
+
+.aside_1 ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 10px;
+    overflow: hidden;
+
+}
+
+.aside_1 ul li {
+    display: block;
+    padding: 5px;
+}
+
+.aside_1 h3 {
+    text-align: center;
+}
+
+.aside ul li a {
+    display: block;
+    text-decoration: none;
+}
+
+.wrapper {
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 250px;
+    float: right;
+}
+
+.btn {
+    width: 90px;
+    height: 30px;
+    background: #337AB7;
+    font-family: Helvetica neue, Helvetica, Arial;
+    border-radius: 5px;
+    margin-top: 10px;
+    color: #FFF;
+    font-size: 12px;
+}
+
+footer {
+    float: left;
+    clear: both;
+    background-color: #15171E;
+    color: #AAA;
+    width: 1200px;
+    height: 80px;
+    margin-top: 200px;
+}
+
+footer p {
+    text-align: center;
+}
+
+.comment {
+    background-color: #F0F0F0;
+    clear: both;
+    width: 600px;
+    padding: 10px;
+}
+
+.published_comments {
+    background-color: #F0F0F0;
+    width: 600px;
+    padding: 10px;
+    margin-top: 20px;
+    font-family: Helvetica neue, Helvetica, Arial;
+    position: relative;
+
+}
+
+.delete_btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.delete_btn a {
+    text-decoration: none;
+}
+
+.logout_btn {
+
+    float: right;
+    font-family: Helvetica neue, Helvetica, Arial;
+    position: absolute;
+    right: 120px;
+    top: 100px;
+}
+
+
+.register_form {
+    width: 500px;
+    margin: auto;
+    padding: 10px;
+}
+
+.form-control {
+    width: 500px;
+    margin: 20px auto 0 auto;
+    font-family: Helvetica neue, Helvetica, Arial;
+    background: #333;
+    color: #FFF;
+    padding: 20px;
+}
+
+
